@@ -1,8 +1,6 @@
 pipeline{
   
-  agent {
-        node any
-    }
+  agent any
 
   stages {
     stage('check branch R589 ') {
