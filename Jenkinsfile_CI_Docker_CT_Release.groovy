@@ -6,7 +6,7 @@ pipeline{
     stage('check branch R589 ') {
       steps {
         script{
-          println(env.GIT_BRANCH)
+          println(env.GIT_BRANCH+"-----")
           sleep(30000)
           if (env.ISDELETED == "true") {
             println "Branch deletion detected. Short-circuiting the build"
