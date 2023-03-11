@@ -1,4 +1,11 @@
 pipeline{
+  
+  agent {
+        node {
+            label 'master'
+        }
+    }
+
   stages {
     stage('check branch R588') {
       steps {
