@@ -1,6 +1,6 @@
 pipeline{
   stages {
-    stage('check branch master ') {
+    stage('check branch R589 ') {
       steps {
         script{
           println(env.GIT_BRANCH)
